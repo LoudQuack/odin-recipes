@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+#banner{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vw;
+        
+}
+
+#banner > img {
+    position: absolute;
+    width: 10vw;
+    top: 0px;
+    left: 0px;
+}
+
+#banner > h1 {
+    color: #e3a04c;
+    font-size: 5vw;
+    margin: 0 auto;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+
+.container {
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 0px 0px .7vw black;
+    border: .2vw outset rgb(224, 224, 224);
+    border-radius: 2vw;
+    background-size: cover;
+}
+.container:hover{
+    transform: scale(1.15);
+    box-shadow: 0px 0px .3vw black;
+}
+
+
+#mead {
+    background-image: url('img/mead.jpg');
+}
+#black-bread {
+    background-image: url('img/black-bread.jpg');
+}
+#kvas {
+    background-image: url('img/kvas.jpg');
+}
